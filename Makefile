@@ -29,7 +29,7 @@ EFI_LIB_DIR = /usr/lib
 
 EFI_INCS = -I$(EFI_HEADER_DIR) \
 		   -I$(EFI_HEADER_DIR)/$(ARCH) \
-		   -I$(EFI_HEADER_DIR)/protocal
+		   -I$(EFI_HEADER_DIR)/protocol
 EFI_CRT_OBJS = $(EFI_LIB_DIR)/crt0-efi-$(ARCH).o
 EFI_LDS = $(EFI_LIB_DIR)/elf_$(ARCH)_efi.lds
 
